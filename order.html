@@ -123,12 +123,27 @@
 
 
   </main><!-- End #main -->
+
+  
+  <section id="services">
+    <div class="container" data-aos="fade-up">
+      <header class="section-header wow fadeInUp">
+        <h3>خطوات الطلب</h3>
+       </header>
+      <img style="width: 100%;
+      padding-right:0;" src="assets/img/Always pay.png" >
+  </div>
+  </section>
+
   <!-- ======= Contact Section ======= -->
-  <section id="contact" class="section-bg">
+  <section id="contact" style=" background: url('assets/img/portfolio/hands-close-up-executives-showing-project.png') center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;">
     <div class="container" data-aos="fade-up">
 
       <div class="section-header">
-        <h3>لطلب خدمة</h3>
+        <h3 style="color: white;">لطلب خدمة</h3>
      
       </div>
 
@@ -136,6 +151,49 @@
       <div class="form">
         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
           <div class="row">
+            <div class="form-group">
+              <label>اختر الخدمة</label><br>
+               <select class="form-group col-md-12">
+                   <option>استشارة ادارية
+                    <ul>
+                      <option>	حوكمة الشركات</option>
+                      <option>وضع مؤشرات تقييم الأداء </option>
+                      <option>إعداد السياسات والإجراءات الداخلية</option>
+                      <option> الهيكل التنظيمي</option>
+                      <option>استشارات الاعمال واستشارات الموارد البشرية</option>
+                      <option>التخطيط الاستراتيجي</option>
+                      <option>التطوير الاداري</option>
+                      <option>أعادة الهيكلة</option>
+                      <option>تصميم اجراءات العمل وأدارة معايير القياس والاداة</option>
+                      <option>الاستشارات التسويقية</option>
+                    </ul>
+                   </option>
+                   <option> استشارة مالية
+                    <ul>
+                      <option>	إعداد السياسات والإجراءات الداخلية للمنشأة</option>
+                      <option>	وضع الخطط المالية والموازنات التقديرية وفق التوجهات الاستراتيجية</option>
+                      <option>	إعداد متطلبات الجهات التمويلية</option>
+                      <option>	إعداد خطط العمل<option>
+                      <option>	إعداد التقارير المالية الدورية</option>
+                      <option>	تجهيز متطلبات المحاسب القانوني</option>
+                      <option>	تهيئة الأنظمة المحاسبية</option>
+                      <option>	مراجعة وتحسين العمليات الحسابية</option>
+                      <option>	إعداد دراسات الجدوى الاقتصادية والمالية</option>
+                      <option>	الرقابة المالية وتطوير الأنظمة المالية</option>
+                      <option>	تقييم واختيار نظام ERP اللازم للمنشأة بما يتناسب مع طبيعة وحجم نشاطها</option>
+                    
+                    </ul>
+                   </option>
+                   <option> استشارة ضريبية
+                    <ul>
+                      <option>ضريبة القيمة المضافة</option>
+                      <option>خدمات الاستشارات الضريبية</option>
+                      <option>خدمات كشف الزكاة/ ضريبة</option>
+                      <option>	تسعير التحويل</option>
+                    </ul>
+                   </option>
+               </select>
+             </div>
             <div class="form-group col-md-6">
               <input type="text" name="name" class="form-control" id="name" placeholder="الاسم" required>
             </div>
@@ -146,14 +204,7 @@
           <div class="form-group">
             <input type="phone" class="form-control" name="phone" id="phone" placeholder="رقم الهاتف" required>
           </div>
-          <div class="form-group">
-           <label>اختر الخدمة</label><br>
-            <select class="form-group col-md-12">
-                <option>استشارة ادارية</option>
-                <option> استشارة مالية</option>
-                <option> استشارة ضريبية</option>
-            </select>
-          </div>
+          
           <div class="form-group">
             <textarea class="form-control" name="message" rows="5" placeholder="تفاصيل الطلب" required></textarea>
           </div>
